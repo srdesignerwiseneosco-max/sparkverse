@@ -2,13 +2,24 @@
 
 Playable youth slice — race, quest, quiz, plaza.
 
-## Play now
+## Play
 
-1. Download `index.html` and open it in Chrome / Edge / Safari.
-2. Or use this preview (after the file is on main):
-   https://htmlpreview.github.io/?https://github.com/srdesignerwiseneosco-max/sparkverse/blob/main/index.html
-3. GitHub Pages (if enabled on this repo):
-   https://srdesignerwiseneosco-max.github.io/sparkverse/
+After Pages + Actions are on:
+
+https://srdesignerwiseneosco-max.github.io/sparkverse/
+
+Until then you can still open `index.html` locally or use:
+
+https://htmlpreview.github.io/?https://github.com/srdesignerwiseneosco-max/sparkverse/blob/main/index.html
+
+## Deploy (GitHub Actions)
+
+1. Repo **Settings → Pages**
+2. **Build and deployment → Source** = **GitHub Actions** (not "Deploy from a branch")
+3. Push to `main` or run **Actions → Deploy SPARKVERSE to GitHub Pages → Run workflow**
+4. Wait for the green check, then open the Pages URL
+
+Workflow file: `.github/workflows/pages.yml`
 
 ## Worlds
 
@@ -17,4 +28,4 @@ Playable youth slice — race, quest, quiz, plaza.
 - Skill Campus — 5 safe questions
 - Home District — plaza walk
 
-Name, Spark and Stars save in the browser. No chat. No payments.
+No chat. No payments. Progress saves in the browser.
